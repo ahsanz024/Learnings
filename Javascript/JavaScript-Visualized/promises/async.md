@@ -9,3 +9,6 @@ https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke
   - **Async** functions get added to the `MicroTask Queue` upon encountering `await` keyword
     - once the CallStack is empty, they're added to the Callstack to be resolved.
     - Continues execution from where it left off.
+- Delay execution (e.g. Thread.Sleep)
+  - using promises/await
+    - see example
